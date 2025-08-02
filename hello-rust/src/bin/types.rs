@@ -1,6 +1,6 @@
 #![allow(unused)]
 
-fn main(){
+fn main() {
     let x = -123;
     // x += 1  error , unmutable by default; This will not compile
 
@@ -8,12 +8,12 @@ fn main(){
     y += 2;
     println!("The value of y is {}", y);
 
-    let z= -123;
+    let z = -123;
 
     // shadowing
     let x = 1;
-    let x= true;
+    let x = true;
 
     // vector
-    let v: Vec<_>= vec![1,2,3];
+    let v: Vec<_> = vec![1, 2, 3];
 }
